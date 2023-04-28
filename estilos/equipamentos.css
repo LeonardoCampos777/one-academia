@@ -25,12 +25,34 @@
   grid-template-columns: 1fr 1fr 1fr;
   margin-bottom: 40px;
   margin-left: 33px;
+  position: relative;
 }
 
 .equipamentos-galeria img{
     border-radius: 10px;
     border-left: 2px solid #3838cf;
     border-bottom: 2px solid #3838cf;
+    
+}
+
+.linha-moft::before{
+  content: "";
+  display: block;
+  width: 1096px;
+  height: 3px;
+  background-color: #3838cf;
+  position: absolute;
+  top: -50px;
+}
+
+.linha-moft::after{
+  content: "";
+  display: block;
+  width: 1096px;
+  height: 3px;
+  background-color: #3838cf;
+  position: absolute;
+  bottom: -50px;
 }
 
 @media (max-width:1165px){
@@ -53,6 +75,16 @@
   .equipamentos-galeria .imagem-3{
     grid-column: 1/-1;
   }
+
+  .linha-moft::before{
+    width: 680px;
+  }
+
+  .linha-moft::after{
+    width: 680px;
+  }
+  
+
 }
 
 
@@ -61,4 +93,13 @@
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
   }
+
+  .linha-moft::before{
+    width: 280px;
+  }
+
+  .linha-moft::after{
+    width: 280px;
+  }
+  
 }
