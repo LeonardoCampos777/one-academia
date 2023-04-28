@@ -19,6 +19,22 @@
   color: rgb(11, 11, 100);
 }
 
+.whats img{
+  width: 60px;
+}
+
+.whats{
+  position: absolute;
+  right: 30px;
+  bottom: 40px;
+  position: fixed;
+  z-index: 9999;
+}
+
+.whats:hover{
+  bottom: 45px;
+  transition: 500ms;
+}
 
 .equipamentos-galeria{
   display: grid;
@@ -82,16 +98,23 @@
   .linha-moft::after{
     width: 680px;
   }
-  
 
 }
 
-
 @media (max-width:800px){
+  .whats img{
+    width: 50px;
+  }
+
+  .whats{
+    right: 15px;
+  }
+
   .equipamentos-galeria{
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
   }
+
 
   .linha-moft::before{
     width: 280px;
