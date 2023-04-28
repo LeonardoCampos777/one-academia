@@ -33,7 +33,7 @@
 
 .whats:hover{
   bottom: 45px;
-  transition: 500ms;
+  transition: 200ms;
 }
 
 .equipamentos-galeria{
@@ -102,13 +102,10 @@
 }
 
 @media (max-width:800px){
-  .whats img{
-    width: 50px;
+  .equipamentos .whats{
+    display: none;
   }
 
-  .whats{
-    right: 15px;
-  }
 
   .equipamentos-galeria{
     grid-template-columns: 1fr;
