@@ -52,7 +52,7 @@
   content: "Linha Moft";
   text-align: center;
   background: linear-gradient(to right, #033393e1, #4993f0, #fff);
-  color: white;
+  color: #E0E0E0;
   font-size: 2rem;
   font-family:'Poppins', sans-serif;
   text-transform: uppercase;
@@ -68,7 +68,7 @@
   content: "Linha Upper";
   text-align: center;
   background: linear-gradient(to right, #033393e1, #4993f0, #fff);
-  color: white;
+  color: #E0E0E0;
   font-size: 2rem;
   font-family:'Poppins', sans-serif;
   text-transform: uppercase;
