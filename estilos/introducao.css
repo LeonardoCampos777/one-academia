@@ -28,7 +28,7 @@
 }
 
 .introducao-texto{
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   line-height: 1.3;
   color: #fff;
 }
@@ -79,6 +79,10 @@
   }
   .introducao{
     background-position: center right;
+  }
+
+  .introducao-titulo br{
+    display: none;
   }
   
 }
