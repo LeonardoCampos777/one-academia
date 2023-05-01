@@ -25,12 +25,14 @@
   line-height: 1.1;
   color: #fff;
   font-family: 'Poppins', sans-serif;
+  text-shadow: 2px 4px 8px black;
 }
 
 .introducao-texto{
   font-size: 1.3rem;
   line-height: 1.3;
   color: #fff;
+  text-shadow: 2px 4px 8px black;
 }
 
 .introducao-redes{
