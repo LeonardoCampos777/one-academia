@@ -1,14 +1,18 @@
 .introducao{
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 40px 20px;
-  display: grid;
-  gap: 60px;
-  grid-template-columns: 1fr 1fr;
-  align-items: center;
-  margin-bottom: 50px;
+  height: 100vh;
+  background-image: url(../imagens/Capa-apresentação.jpg);
+  background-repeat: no-repeat;
+  background-position: center left;
+  background-size: cover;
 }
 
+.introducao-container{
+  padding: 150px 150px;
+  display: grid;
+  gap: 60px;
+  justify-items: right;
+  text-align: right;
+}
 
 .introducao img{
   border-radius: 10px;
@@ -17,14 +21,16 @@
 }
 
 .introducao-titulo{
-  font-size: 3.5rem;
+  font-size: 4.5rem;
   line-height: 1.1;
-  margin-bottom: 30px;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
 }
 
 .introducao-texto{
   font-size: 1.2rem;
   line-height: 1.3;
+  color: #fff;
 }
 
 .introducao-redes{
@@ -35,35 +41,37 @@
 
 .introducao-redes img{
   border: 4px solid #4993f0;
+  padding: 10px;
 }
 
 .introducao-redes img:hover{
-  border: 4px solid #144c91;
+  border: 4px solid #cad9eb;
 }
 
 @media (max-width:1000px){
+  .introducao-titulo{
+    font-size: 3rem;
+  }
+}
+
+@media (max-width:800px){
+  .introducao-container{
+    text-align: center;
+    padding: 50px 50px;
+  }
+
   .introducao-titulo{
     font-size: 2.5rem;
   }
 }
 
-@media (max-width:800px){
-  .introducao-titulo{
-    font-size: 2rem;
-  }
-}
-
 @media (max-width:720px){
+  .introducao-titulo{
+    text-align: left;
+    max-width: 60ch;
+  }
   .introducao{
-    grid-template-columns: 1fr;
+    background-position: center right;
   }
-
-
-  .introducao img{
-    display: none;
-  }
-
-  .introducao-redes img{
-    display: block;
-  }
+  
 }
