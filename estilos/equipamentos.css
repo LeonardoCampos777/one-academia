@@ -101,9 +101,12 @@
 
 @media (max-width:800px){
   .equipamentos .whats{
-    display: none;
+    display: block;
   }
 
+  .equipamentos .whats img{
+    width: 45px;
+  }
 
   .equipamentos-galeria{
     grid-template-columns: 1fr;
