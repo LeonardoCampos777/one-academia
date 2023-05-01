@@ -46,8 +46,6 @@
 
 .equipamentos-galeria img{
     border-radius: 10px;
-    border-left: 2px solid #3838cf;
-    border-bottom: 2px solid #3838cf;
 }
 
 .linha-moft::before{
