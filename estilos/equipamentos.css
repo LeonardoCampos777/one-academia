@@ -111,7 +111,6 @@
     grid-template-columns: 1fr 1fr;
     gap: 30px 20px;
     margin-right: 45px;
-    justify-items: center;
   }
 
   .equipamentos-galeria .imagem-3{
@@ -138,8 +137,14 @@
   }
 
   .equipamentos-galeria{
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
+    display: flex;
+    overflow-x: auto;
+  }
+
+  .equipamentos-galeria li{
+    flex: 1;
+    min-width: 280px;
+    min-height: 280px;
   }
 
 
