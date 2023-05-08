@@ -149,15 +149,15 @@
 
 
   .linha-luxurious::before{
-    width: 280px;
+    display: none;
   }
 
   .linha-moft::before{
-    width: 280px;
+    display: none;
   }
 
   .linha-moft::after{
-    width: 280px;
+    display: none;
   }
   
 }
