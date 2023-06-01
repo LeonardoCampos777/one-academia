@@ -1,5 +1,8 @@
-@import "../estilos/global.css";
-@import "../estilos/header.css";
-@import "../estilos/introducao.css";
-@import "../estilos/equipamentos.css";
-@import "../estilos/especificacoes.css";
+@import "global/global.css";
+@import "global/header.css";
+
+
+
+/*ULTILIDADES */
+@import "ultilidades/tipografia.css";
+@import "ultilidades/cores.css";
