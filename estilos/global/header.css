@@ -25,6 +25,10 @@
   position: relative;
 }
 
+.header-menu a:hover{
+  color: rgb(97, 54, 250);
+}
+
 .header-menu a::after{
   content: "";
   display: block;
