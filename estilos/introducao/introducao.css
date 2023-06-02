@@ -6,7 +6,8 @@
 }
 
 .introducao-conteudo {
-  padding: 350px 40px;
+  padding-top: 350px;
+  padding-left: 40px;
 }
 
 .introducao-conteudo h1{
@@ -28,7 +29,8 @@
 
 @media (max-width:1010px){
   .introducao-conteudo {
-    padding: 250px 40px;
+    padding-top: 250px;
+    padding-left: 40px;
   }
 
   .introducao-conteudo h1{
@@ -42,7 +44,8 @@
 
 @media (max-width:800px){
   .introducao-conteudo {
-    padding: 250px 40px;
+    padding-top: 250px ;
+    padding-left: 40px;
   }
 
   .introducao-conteudo h1{
