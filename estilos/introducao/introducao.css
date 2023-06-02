@@ -2,7 +2,7 @@
   background: url(../../imagens/img-introducao.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 670px;
+  height: 700px;
 }
 
 .introducao-conteudo {
@@ -42,7 +42,7 @@
   }
 }
 
-@media (max-width:500px){
+@media (max-width:520px){
   .introducao-conteudo {
     padding-top: 180px ;
     padding-left: 20px;
