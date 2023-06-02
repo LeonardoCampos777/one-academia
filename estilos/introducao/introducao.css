@@ -42,17 +42,17 @@
   }
 }
 
-@media (max-width:800px){
+@media (max-width:500px){
   .introducao-conteudo {
-    padding-top: 250px ;
-    padding-left: 40px;
+    padding-top: 180px ;
+    padding-left: 20px;
   }
 
   .introducao-conteudo h1{
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
 
   .introducao-conteudo p{
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 }
