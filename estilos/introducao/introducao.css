@@ -34,11 +34,11 @@
   }
 
   .introducao-conteudo h1{
-    font-size: 2.5rem;
+    font-size: 3rem;
   }
 
   .introducao-conteudo p{
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
 }
 
@@ -49,10 +49,10 @@
   }
 
   .introducao-conteudo h1{
-    font-size: 2rem;
+    font-size: 2.5rem;
   }
 
   .introducao-conteudo p{
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
 }
