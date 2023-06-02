@@ -42,7 +42,17 @@
   }
 }
 
-@media (max-width:520px){
+@media (max-width:800px){
+  .introducao-bg{
+    height: 600px;
+  }
+}
+
+@media (max-width:540px){
+  .introducao-bg{
+    height: 560px;
+  }
+
   .introducao-conteudo {
     padding-top: 180px ;
     padding-left: 20px;

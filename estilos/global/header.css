@@ -57,8 +57,9 @@
   .header-menu a{
     margin-top: 10px;
     font-size: 0.8em;
-    background-color: #2b2a2a;
     padding: 7px;
+    background-color: #2b2a2a;
+    border-radius: 4px;
   }
 
   .header-menu a::after{
