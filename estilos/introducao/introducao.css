@@ -48,7 +48,7 @@
   }
 }
 
-@media (max-width:540px){
+@media (max-width:570px){
   .introducao-bg{
     height: 560px;
   }
@@ -67,7 +67,7 @@
   }
 }
 
-@media (max-width:450px){
+@media (max-width:500px){
   
   .introducao-conteudo h1{
     font-size: 2.4rem;
