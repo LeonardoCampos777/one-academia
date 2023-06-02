@@ -1,9 +1,12 @@
 @import "global/global.css";
 @import "global/header.css";
 
-
+/*INTRODUÇÃO */
 @import "introducao/introducao.css";
 
+
+/*CATEGORIAS */
+@import "categorias/categorias.css";
 
 /*ULTILIDADES */
 @import "ultilidades/tipografia.css";

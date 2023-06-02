@@ -4,9 +4,14 @@
   box-sizing: border-box;
 }
 
+body{
+  background-color: var(--cor-12);
+}
+
 img{
   max-width: 100%;
   display: block;
+  border-radius: 4px;
 }
 
 a{
