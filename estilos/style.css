@@ -2,6 +2,8 @@
 @import "global/header.css";
 
 
+@import "introducao/introducao.css";
+
 
 /*ULTILIDADES */
 @import "ultilidades/tipografia.css";
