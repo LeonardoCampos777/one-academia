@@ -67,6 +67,17 @@
   transition: 0.3s;
 }
 
+.categorias-galeria span{
+  font-family: 'Audiowide', cursive;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  text-align: center;
+  display: block;
+  margin-top: 10px;
+  display: none;
+
+}
+
 @media (max-width:1150px){
   .categorias{
     grid-template-columns: 1fr;
@@ -85,5 +96,9 @@
   .categorias-titulo p{
     font-size: 1.8rem;
     margin-bottom: 5px;
+  }
+
+  .categorias-galeria span{
+    display: block;
   }
 }
