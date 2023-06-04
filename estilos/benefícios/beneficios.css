@@ -41,5 +41,6 @@
 @media (max-width:500px){
   .beneficios h1{
     padding-top: 30px;
+    padding-bottom: 50px;
   }
 }
