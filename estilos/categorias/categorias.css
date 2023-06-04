@@ -42,6 +42,7 @@
   border: 3px solid transparent;
   flex: 1;
   min-width: 280px;
+  cursor: pointer;
 }
 
 .categorias-galeria li:hover{
