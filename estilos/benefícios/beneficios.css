@@ -49,7 +49,7 @@
 @media (max-width:800px){
   .beneficios::before{
     left: 8px;
-    top: -100px;
+    top: -80px;
 }
 
   .beneficios h1{
