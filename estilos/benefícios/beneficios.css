@@ -48,7 +48,7 @@
 
 @media (max-width:800px){
   .beneficios::before{
-    left: 3px;
+    left: 8px;
     top: -100px;
 }
 
