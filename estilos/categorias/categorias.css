@@ -44,6 +44,7 @@
   min-width: 280px;
 }
 
+
 .categorias-galeria li:hover{
   border-color: var(--cor-1);
   transition: 0.3s;
