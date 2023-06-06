@@ -11,6 +11,9 @@
 /*BENEFÍCIOS */
 @import "benefícios/beneficios.css";
 
+/*PROPAGANDA */
+@import "propaganda/propaganda.css";
+
 /*ULTILIDADES */
 @import "ultilidades/tipografia.css";
 @import "ultilidades/cores.css";
