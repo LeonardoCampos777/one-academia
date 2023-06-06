@@ -99,3 +99,14 @@
     width: 450px;
   }
 }
+
+@media (max-width:440px){
+  .propaganda-conteudo{
+    padding-left: 20px;
+
+  }
+
+  .propaganda iframe{
+    width: 380px;
+  }
+}
