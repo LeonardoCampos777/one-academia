@@ -43,14 +43,13 @@
   border-radius: 4px;
 } 
 .propaganda-conteudo a:hover{
-  background-color: #00B4D8;
+  background: linear-gradient(to right, #00B4D8 35%,#00b4d8 65%);
 } 
 
-.img-cover {
+.img-cover{
   height: 100%;
-  -o-object-fit: cover;
-  object-fit: cover;
   width: 100%;
+  object-fit: cover;
 }
 
 .propaganda-video{
@@ -62,7 +61,7 @@
   padding: 28px 28px;
   border: 2px solid var(--cor-0);
   border-radius: 50%;
-  background: var(--cor-1);
+  background-color: #4895E0;
   position: absolute;
   right: 45%;
   bottom: 40%;
@@ -71,8 +70,6 @@
 .icone-video:hover{
   background-color: #00B4D8;
 }
-
-
 
 
 @media (max-width:1230px){
@@ -133,7 +130,7 @@
 
 @media (max-width:540px){
   .icone-video{
-    padding: 16px 16px;
+    padding: 20px 20px;
     right: 43%;
     bottom: 30%;
   }
