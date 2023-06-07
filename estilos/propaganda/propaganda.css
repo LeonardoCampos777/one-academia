@@ -20,15 +20,16 @@
 }
 
 .propaganda-conteudo p{
-  font-size: 1.7rem;
+  font-size: 2rem;
   text-transform: uppercase;
   line-height: 1.3;
+  letter-spacing: 5px;
   margin-bottom: 26px;
   padding-top: 180px;
 }
 
 .propaganda-conteudo h1{
-  font-size: 3.2rem;
+  font-size: 4rem;
   text-transform: uppercase;
   max-width: 3.5ch;
   letter-spacing: 8px;
@@ -37,12 +38,12 @@
 
 .propaganda-conteudo a{
   padding: 12px 80px;
-  background-color: #0077B6;
+  background-color: var(--cor-0);
   text-transform: uppercase;
   border-radius: 4px;
 } 
 .propaganda-conteudo a:hover{
-  background-color: #023E8A;
+  background-color: #00B4D8;
 } 
 
 .img-cover {
@@ -72,31 +73,34 @@
 }
 
 
+
+
+@media (max-width:1230px){
+  .propaganda-conteudo p {
+    font-size: 1.7rem;
+    margin-top: 50px;
+    padding-top: 75px;
+}
+
+  .propaganda-conteudo h1{
+    font-size: 3.5rem;
+  }
+}
+
 @media (max-width:1180px){
   .propaganda-bg {
     box-shadow: none;
   }
 
-  .propaganda-conteudo p {
-    padding-top: 75px;
-    font-size: 1.5rem;
-}
-
-  .propaganda-conteudo h1{
-    font-size: 2.5rem;
-  }
-
   .propaganda-conteudo{
     padding-left: 40px;
   }
+
+  .propaganda-conteudo p {
+    margin-top: 0px;
+}
 }
 
-
-@media (max-width:1230px){
-  .propaganda-conteudo p{
-    font-size: 1.4rem;
-  }
-}
 
 @media (max-width:1050px){
   .propaganda{
@@ -112,7 +116,6 @@
 @media (max-width:620px){
   .propaganda-conteudo p{
     padding-top: 40px;
-    padding-left: 10px;
     padding-right: 10px;
     font-size: 1.5rem;
   }
@@ -131,7 +134,7 @@
 @media (max-width:540px){
   .icone-video{
     padding: 16px 16px;
-    right: 40%;
+    right: 43%;
     bottom: 30%;
   }
 }
