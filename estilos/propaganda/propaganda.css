@@ -52,6 +52,26 @@
   width: 100%;
 }
 
+.propaganda-video{
+  position: relative;
+}
+
+.icone-video{
+  display: inline-block;
+  padding: 28px 28px;
+  border: 2px solid var(--cor-0);
+  border-radius: 50%;
+  background: var(--cor-1);
+  position: absolute;
+  right: 45%;
+  bottom: 40%;
+}
+
+.icone-video:hover{
+  background-color: #00B4D8;
+}
+
+
 @media (max-width:1180px){
   .propaganda-bg {
     box-shadow: none;
@@ -69,8 +89,8 @@
   .propaganda-conteudo{
     padding-left: 40px;
   }
-
 }
+
 
 @media (max-width:1230px){
   .propaganda-conteudo p{
@@ -100,6 +120,11 @@
   .propaganda-conteudo h1{
     font-size: 2.1rem;
     margin-bottom: 25px;
+  }
+
+  .icone-video{
+    right: 40%;
+    bottom: 32%;
   }
 }
 
