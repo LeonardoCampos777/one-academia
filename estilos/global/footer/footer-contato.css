@@ -1,0 +1,17 @@
+.footer-contato{
+  margin-top: 50px;
+}
+
+.footer-contato li{
+  font-size: 1.4rem;
+  line-height: 1.5;
+}
+
+.footer-contato li:hover{
+  color: #4895EF;
+}
+
+.footer-contato p{
+  text-transform: uppercase;
+  line-height: 1.5;
+}

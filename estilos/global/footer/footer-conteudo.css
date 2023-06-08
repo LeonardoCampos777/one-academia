@@ -1,0 +1,40 @@
+.footer-conteudo{
+  padding-top: 120px;
+  padding-bottom: 80px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+
+}
+
+.footer-conteudo .logo{
+  max-width: 200px;
+  margin-bottom: 60px;
+  
+}
+
+.footer-redes{
+  display: flex;
+  gap: 30px;
+  justify-self: center;
+}
+
+.footer-redes img{
+  max-width: 45px;
+}
+
+@media (max-width:640px){
+  .footer-conteudo{
+    grid-template-columns: 1fr;
+    padding-top: 60px;
+  }
+
+  .footer-conteudo .logo {
+    max-width: 200px;
+    margin-bottom: 0px;
+  }
+  .footer-contato {
+   margin-bottom: 25px;
+  }
+
+}

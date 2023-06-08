@@ -1,5 +1,7 @@
 @import "global/global.css";
 @import "global/header.css";
+@import "global/footer/footer-contato.css";
+@import "global/footer/footer-conteudo.css";
 
 /*INTRODUÇÃO */
 @import "introducao/introducao.css";
