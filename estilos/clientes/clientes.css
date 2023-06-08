@@ -57,8 +57,12 @@
     padding-top: 50px;
   }
   
-  .clientes-conteudo{
-    padding-top: 50px;
+  .clientes-bg h1 {
+    padding-top: 40px;
+}
+
+  .clientes-conteudo img{
+    width: 50px;
   }
 
   }
