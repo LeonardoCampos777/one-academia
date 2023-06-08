@@ -52,8 +52,13 @@
   font-size: 1rem;
 }
 
-@media (max-width:480px){
+@media (max-width:480px){  
+  .clientes-bg h1{
+    padding-top: 50px;
+  }
+  
   .clientes-conteudo{
     padding-top: 50px;
   }
+
   }
