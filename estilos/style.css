@@ -14,6 +14,9 @@
 /*PROPAGANDA */
 @import "propaganda/propaganda.css";
 
+/*CLIENTES*/
+@import "clientes/clientes.css";
+
 /*ULTILIDADES */
 @import "ultilidades/tipografia.css";
 @import "ultilidades/cores.css";
