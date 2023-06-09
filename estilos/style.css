@@ -3,15 +3,12 @@
 @import "global/footer/footer-contato.css";
 @import "global/footer/footer-conteudo.css";
 
-/*INTRODUÇÃO */
-@import "introducao/introducao.css";
-
-
-/*CATEGORIAS */
-@import "categorias/categorias.css";
-
-/*BENEFÍCIOS */
-@import "benefícios/beneficios.css";
+/*HOME */
+@import "home/introducao.css";
+@import "home/categorias.css";
+@import "home/beneficios.css";
+@import "home/propaganda.css";
+@import "home/clientes.css";
 
 /*PROPAGANDA */
 @import "propaganda/propaganda.css";
