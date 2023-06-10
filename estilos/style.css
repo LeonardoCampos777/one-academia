@@ -10,11 +10,9 @@
 @import "home/propaganda.css";
 @import "home/clientes.css";
 
-/*PROPAGANDA */
-@import "propaganda/propaganda.css";
 
-/*CLIENTES*/
-@import "clientes/clientes.css";
+/*QUEM-SOMOS*/
+@import "quem-somos/quem-somos.css";
 
 /*ULTILIDADES */
 @import "ultilidades/tipografia.css";
