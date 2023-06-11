@@ -16,6 +16,11 @@
   text-transform: uppercase;
 }
 
+.quem-somos-introducao span{
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
 .quem-somos-introducao p{
   font-size: 1.2rem;
   line-height: 1.5;
