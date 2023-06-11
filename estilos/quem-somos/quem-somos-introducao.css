@@ -1,0 +1,28 @@
+.quem-somos-introducao{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  margin-top: 60px;
+  overflow-x: auto;
+}
+
+.quem-somos-introducao div{
+  min-width: 280px;
+}
+
+.quem-somos-introducao h1{
+  font-size: 3rem;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.quem-somos-introducao p{
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  max-width: 50ch;
+  border-left: 2px solid var(--cor-1);
+  border-bottom: 2px solid var(--cor-1);
+  padding-left: 10px;
+  padding-bottom: 10px;
+}

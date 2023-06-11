@@ -13,6 +13,7 @@
 
 /*QUEM-SOMOS*/
 @import "quem-somos/quem-somos.css";
+@import "quem-somos/quem-somos-introducao.css";
 
 /*ULTILIDADES */
 @import "ultilidades/tipografia.css";
