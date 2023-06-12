@@ -21,6 +21,10 @@
   margin-bottom: 20px;
 }
 
+.quem-somos-introducao p{
+  padding-left: 10px;
+}
+
 .quem-somos-introducao li,
 .quem-somos-introducao p{
   font-size: 1.2rem;
