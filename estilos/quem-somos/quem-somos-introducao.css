@@ -21,6 +21,7 @@
   margin-bottom: 20px;
 }
 
+.quem-somos-introducao li,
 .quem-somos-introducao p{
   font-size: 1.2rem;
   line-height: 1.5;
@@ -28,6 +29,27 @@
   max-width: 50ch;
   border-left: 2px solid var(--cor-1);
   border-bottom: 2px solid var(--cor-1);
-  padding-left: 10px;
+  padding-left: 20px;
   padding-bottom: 10px;
 }
+
+.quem-somos-introducao li{
+  position: relative;
+}
+
+.quem-somos-introducao li::before{
+  content: "";
+  display: inline;
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+  background-color: #0466c8;
+  position: absolute;
+  left: 5px;
+  top: 10px;
+}
+
+.quem-somos-tecnologia{
+  padding-right: 10px;
+}
+
