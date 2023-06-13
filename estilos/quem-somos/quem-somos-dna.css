@@ -10,6 +10,8 @@
 }
 
 .nosso-dna img{
+  height: 65vh;
+  width: 100vw;
   object-fit: cover;
   border-radius: 0px;
 }
@@ -34,5 +36,9 @@
 @media (max-width:800px){
   .nosso-dna{
     grid-template-columns: 1fr;
+  }
+
+  .nosso-dna img{
+    
   }
 }
