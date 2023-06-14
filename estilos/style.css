@@ -16,6 +16,11 @@
 @import "quem-somos/quem-somos-introducao.css";
 @import "quem-somos/quem-somos-dna.css";
 
+
+/*GALERIA*/
+@import "galeria/galeria.css";
+
+
 /*ULTILIDADES */
 @import "ultilidades/tipografia.css";
 @import "ultilidades/cores.css";
