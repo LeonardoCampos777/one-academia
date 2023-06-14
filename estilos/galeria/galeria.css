@@ -20,6 +20,7 @@
 .galeria-introducao p{
   font-size: 1.1rem;
   text-transform: uppercase;
+  font-weight: bolder;
   padding-top: 120px;
   text-align: center;
   letter-spacing: 5px;
