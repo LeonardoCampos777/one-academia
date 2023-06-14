@@ -1,7 +1,6 @@
 .galeria-bg{
   background: url(../../imagens/capa-galeria.jpg);
   background-repeat: no-repeat;
-  height: 70vh;
   background-size: cover;
   background-position: left center;
 }
