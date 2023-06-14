@@ -24,6 +24,7 @@
   text-align: center;
   letter-spacing: 5px;
   text-shadow: 4px 4px black;
+  margin-bottom: 40px;
 }
 
 @media (max-width:800px){
