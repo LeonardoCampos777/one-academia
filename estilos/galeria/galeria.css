@@ -32,6 +32,14 @@
     background-position: center center;
   }
 
+  .galeria-introducao{
+    padding-top: 60px;
+  }
+
+  .galeria-introducao h1{
+    font-size: 2rem;
+  }
+
   .galeria-introducao p{
     font-size: 1rem;
     padding-top: 20px;
