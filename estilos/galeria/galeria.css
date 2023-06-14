@@ -30,7 +30,6 @@
 @media (max-width:800px){
   .galeria-bg{
     background-position: center center;
-    height: 100vh;
   }
 
   .galeria-introducao{
@@ -38,7 +37,7 @@
   }
 
   .galeria-introducao h1{
-    font-size: 2rem;
+    font-size: 3rem;
   }
 
   .galeria-introducao p{
