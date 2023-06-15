@@ -23,7 +23,7 @@
 
 .galeria-linhas li{
   border: 3px solid transparent;
-  min-width: 315px;
+  min-width: 280px;
   flex: 1;
 }
 
