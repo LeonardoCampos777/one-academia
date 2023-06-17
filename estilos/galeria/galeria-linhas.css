@@ -51,11 +51,11 @@
   padding-top: 5px;
   padding-bottom: 5px;
   text-align: center;
-  background-color: #a6490c;
+  background-color: #7a0404cc;
 }
 
 .linha-luxurious li:hover {
-  border-color: #a6490c;
+  border-color: #7a0404cc;
 }
 
 @media (max-width: 600px) {
