@@ -52,6 +52,10 @@
   flex: 1;
 }
 
+.galeria-linhas .linha-cardio li{
+  min-width: 500px;
+}
+
 .linha-gold li:hover {
   border-color: #ffdd00;
 }
@@ -93,6 +97,19 @@
 
 .linha-infinity li:hover {
   border-color: #E92229;
+}
+
+.linha-cardio h2{
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+  background-color: #4895EF;
+}
+
+.linha-cardio li:hover {
+  border-color: #4895EF;
 }
 
 @media (max-width: 1330px){
