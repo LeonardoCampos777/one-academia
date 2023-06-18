@@ -22,3 +22,9 @@
   text-transform: uppercase;
   margin-bottom: 10px;
 }
+
+@media (max-width:920px){
+  .creditos{
+    padding-bottom: 60px;
+  }
+}
