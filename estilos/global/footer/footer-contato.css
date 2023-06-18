@@ -15,3 +15,10 @@
   text-transform: uppercase;
   line-height: 1.5;
 }
+
+.creditos{
+  font-size: 0.9rem;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
