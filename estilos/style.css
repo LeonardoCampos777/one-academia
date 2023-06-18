@@ -22,6 +22,9 @@
 @import "galeria/galeria-linhas.css";
 
 
+/*CONTATO*/
+@import "contato/contato.css";
+
 /*ULTILIDADES */
 @import "ultilidades/tipografia.css";
 @import "ultilidades/cores.css";
