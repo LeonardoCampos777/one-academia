@@ -1,5 +1,5 @@
 .galeria-linhas-bg {
- background: linear-gradient(#f8f8f8 70%, #111111 30%);
+  background: linear-gradient(#f8f8f8 60%, #111111 40%);
 }
 
 .galeria-linhas {
@@ -38,14 +38,14 @@
   top: 35px;
 }
 
-.galeria-linhas ul {
+.galeria-linhas ul{
   display: flex;
   gap: 30px;
   overflow-x: auto;
   margin-bottom: 30px;
 }
 
-.galeria-linhas li {
+.galeria-linhas li{
   border: 3px solid transparent;
   min-width: 280px;
   flex: 1;
@@ -55,15 +55,15 @@
   min-width: 500px;
 }
 
-.linha-gold li:hover {
+.linha-gold li:hover{
   border-color: #ffdd00;
 }
 
-.galeria-linhas img {
+.galeria-linhas img{
   border-radius: 4px 4px 0px 0px;
 }
 
-.linha-gold h2 {
+.linha-gold h2{
   font-size: 1.3rem;
   text-transform: uppercase;
   padding-top: 5px;
@@ -72,7 +72,7 @@
   background-color: #ffc300;
 }
 
-.linha-luxurious h2 {
+.linha-luxurious h2{
   font-size: 1.3rem;
   text-transform: uppercase;
   padding-top: 5px;
@@ -81,11 +81,11 @@
   background-color: #7a0404cc;
 }
 
-.linha-luxurious li:hover {
+.linha-luxurious li:hover{
   border-color: #7a0404cc;
 }
 
-.linha-infinity h2 {
+.linha-infinity h2{
   font-size: 1.3rem;
   text-transform: uppercase;
   padding-top: 5px;
@@ -94,7 +94,7 @@
   background-color: #E92229;
 }
 
-.linha-infinity li:hover {
+.linha-infinity li:hover{
   border-color: #E92229;
 }
 
@@ -107,8 +107,24 @@
   background-color: #4895EF;
 }
 
-.linha-cardio li:hover {
+.linha-cardio li:hover{
   border-color: #4895EF;
+}
+
+.linha-pro{
+  justify-self: center;
+  justify-content: center;
+  justify-items: center;
+  jus
+}
+
+.linha-pro h2{
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+  justify-self: center;
 }
 
 @media (max-width: 1330px){
