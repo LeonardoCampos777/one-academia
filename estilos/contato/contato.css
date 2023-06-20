@@ -47,7 +47,7 @@
 }
 
 .contato-conteudo img{
-  box-shadow: 2px 1px 10px 1px rgba(128, 128, 128, 0.822);
+  box-shadow: 1px -3px 10px 2px rgba(145, 143, 143, 0.575);
 }
 
 @media (max-width:800px){
