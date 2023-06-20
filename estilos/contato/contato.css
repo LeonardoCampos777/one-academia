@@ -67,4 +67,9 @@
   .contato-conteudo p{
     font-size: 1.4rem;
   }
+
+  .contato-conteudo li a{
+    font-size: 1.3rem;
+  }
+
 }
