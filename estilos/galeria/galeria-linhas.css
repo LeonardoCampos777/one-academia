@@ -110,6 +110,10 @@
   border-color: #0077b6;
 }
 
+.galeria-linhas .linha-cardio li{
+  min-width: 0px;
+}
+
 .titulo-pro {
   padding-top: 40px;
 }
