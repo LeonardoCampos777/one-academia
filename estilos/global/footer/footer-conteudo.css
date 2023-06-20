@@ -4,13 +4,11 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   justify-items: center;
-
 }
 
 .footer-conteudo .logo{
   max-width: 200px;
   margin-bottom: 60px;
-  
 }
 
 .footer-redes{
@@ -34,6 +32,11 @@
     margin-bottom: 0px;
     margin-right: 30px;
   }
+
+  .footer-conteudo a{
+    font-size: 1.3rem;
+  }
+  
   .footer-contato {
    margin-bottom: 25px;
   }
