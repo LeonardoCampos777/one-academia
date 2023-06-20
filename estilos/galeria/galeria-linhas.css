@@ -48,7 +48,6 @@
 .galeria-linhas li {
   border: 3px solid transparent;
   min-width: 280px;
-  flex: 1;
 }
 
 .galeria-linhas .linha-cardio li {
@@ -117,11 +116,15 @@
   padding-top: 5px;
   padding-bottom: 5px;
   text-align: center;
-  justify-self: center;
+  background-color: #5D5D5D;
 }
 
 .linha-pro li:hover {
   border-color: #D7D9DD;
+}
+
+.galeria-linhas .linha-pro li{
+  min-width: 360px;
 }
 
 @media (max-width: 1330px) {
