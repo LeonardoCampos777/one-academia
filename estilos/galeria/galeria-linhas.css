@@ -107,14 +107,6 @@
   background-color: #0077b6;
 }
 
-.linha-cardio li:hover {
-  border-color: #0077b6;
-}
-
-.galeria-linhas .linha-cardio li{
-  min-width: 0px;
-}
-
 .titulo-pro {
   padding-top: 40px;
 }
@@ -132,9 +124,6 @@
   border-color: #d7d9dd;
 }
 
-.galeria-linhas .linha-pro li {
-  min-width: 310px;
-}
 
 @media (max-width: 1330px) {
   .galeria-linhas h1::before {
