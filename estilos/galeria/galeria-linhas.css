@@ -1,5 +1,5 @@
 .galeria-linhas-bg {
-  background: linear-gradient(#f8f8f8 60%, #111111 40%);
+  background: linear-gradient(#f8f8f8 50%, #111111 50%);
 }
 
 .galeria-linhas {
@@ -60,6 +60,7 @@
 
 .galeria-linhas img {
   border-radius: 4px 4px 0px 0px;
+  min-height: 340px;
 }
 
 .linha-gold h2 {
