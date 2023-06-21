@@ -78,33 +78,11 @@
   padding-top: 5px;
   padding-bottom: 5px;
   text-align: center;
-  background-color: #7a0404cc;
+  background-color: #595959de;
 }
 
 .linha-luxurious li:hover {
-  border-color: #7a0404cc;
-}
-
-.linha-infinity h2 {
-  font-size: 1.3rem;
-  text-transform: uppercase;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  text-align: center;
-  background-color: #e92229;
-}
-
-.linha-infinity li:hover {
-  border-color: #e92229;
-}
-
-.linha-cardio h2 {
-  font-size: 1.3rem;
-  text-transform: uppercase;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  text-align: center;
-  background-color: #0077b6;
+  border-color: #595959de;
 }
 
 .titulo-pro {
@@ -123,7 +101,6 @@
 .linha-pro li:hover {
   border-color: #d7d9dd;
 }
-
 
 @media (max-width: 1330px) {
   .galeria-linhas h1::before {
