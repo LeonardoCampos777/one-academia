@@ -1,5 +1,5 @@
 .galeria-linhas-bg {
-  background: linear-gradient(#f8f8f8 50%, #111111 50%);
+  background: linear-gradient(#f8f8f8 38%, #111111 0%);
 }
 
 .galeria-linhas {
@@ -72,7 +72,7 @@
   background-color: #ffc300;
 }
 
-.linha-luxurious h2 {
+.linha-emotion h2 {
   font-size: 1.3rem;
   text-transform: uppercase;
   padding-top: 5px;
@@ -81,7 +81,7 @@
   background-color: #595959de;
 }
 
-.linha-luxurious li:hover {
+.linha-emotion li:hover {
   border-color: #595959de;
 }
 
