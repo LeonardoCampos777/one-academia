@@ -25,7 +25,7 @@
 .contato-conteudo ul::before{
   content: "";
   display: inline-block;
-  height: 150px;
+  height: 175px;
   width: 3px;
   background: var(--cor-12);
   position: absolute;
