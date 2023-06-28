@@ -17,9 +17,9 @@
 @import "quem-somos/quem-somos-dna.css";
 
 
-/*GALERIA*/
-@import "galeria/galeria.css";
-@import "galeria/galeria-linhas.css";
+/*CATALOGO*/
+@import "catalogo/galeria.css";
+@import "catalogo/galeria-linhas.css";
 
 
 /*CONTATO*/
