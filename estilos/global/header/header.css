@@ -71,7 +71,7 @@
 }
 
 @media (max-width:400px){
-  .container .header-menu {
-    padding: 20px 5%;
-}
+  .container-header{
+    padding: 20px 5px;
+  }
 }
