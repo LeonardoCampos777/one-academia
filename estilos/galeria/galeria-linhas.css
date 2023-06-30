@@ -63,6 +63,10 @@
   min-height: 340px;
 }
 
+.galeria-linhas img:hover{
+  border-radius: 0px;
+}
+
 .linha-gold h2 {
   font-size: 1.3rem;
   text-transform: uppercase;
