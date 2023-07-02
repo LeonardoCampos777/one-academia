@@ -9,15 +9,50 @@
 .footer-contato li{
   font-size: 1.4rem;
   line-height: 1.5;
+  position: relative;
 }
 
 .footer-contato li:hover{
   color: #4895EF;
 }
 
+.footer-contato .telefone::before{
+  content: "";
+  display: block;
+  width: 24px;
+  height: 24px;
+  background: url(../../../icons/chamada-telefonica.png);
+  position: absolute;
+  top: 5px;
+  left: -40px;
+}
+
+.footer-contato .contato::before{
+  content: "";
+  display: block;
+  width: 24px;
+  height: 24px;
+  background: url(../../../icons/envelope-texto-aberto.png);
+  position: absolute;
+  top: 5px;
+  left: -40px;
+}
+
+.footer-contato .localizacao::before{
+  content: "";
+  display: block;
+  width: 24px;
+  height: 24px;
+  background: url(../../../icons/marcador.png);
+  position: absolute;
+  top: 5px;
+  left: -40px;
+}
+
 .footer-contato p{
   text-transform: uppercase;
   line-height: 1.5;
+  position: relative;
 }
 
 .creditos{
@@ -30,5 +65,19 @@
 @media (max-width:920px){
   .creditos{
     padding-bottom: 60px;
+  }
+}
+
+@media (max-width:450px){
+  .footer-contato .telefone::before{
+    position: initial;
+  }
+
+  .footer-contato .contato::before{
+    position: initial;
+  }
+
+  .footer-contato .localizacao::before{
+    position: initial;
   }
 }
