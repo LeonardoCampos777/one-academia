@@ -27,6 +27,18 @@
   left: -40px;
 }
 
+.footer-contato .instagram::before{
+  content: "";
+  display: block;
+  width: 24px;
+  height: 24px;
+  background: url(../../../icons/instagram\ \(1\).png);
+  position: absolute;
+  top: 5px;
+  left: -40px;
+}
+
+
 .footer-contato .contato::before{
   content: "";
   display: block;
@@ -70,6 +82,10 @@
 
 @media (max-width:450px){
   .footer-contato .telefone::before{
+    position: initial;
+  }
+
+  .footer-contato .instagram::before{
     position: initial;
   }
 
