@@ -1,9 +1,7 @@
-.footer-contato{
-  margin-top: 50px;
-}
-
 .footer-contato ul{
+  margin-top: 20px;
   margin-bottom: 10px;
+
 }
 
 .footer-contato li{
@@ -68,7 +66,7 @@
 }
 
 .creditos{
-  font-size: 0.7rem;
+  font-size: 0.8rem;
   text-align: center;
   text-transform: uppercase;
   margin-bottom: 10px;
@@ -80,7 +78,7 @@
   }
 }
 
-@media (max-width:450px){
+@media (max-width:580px){
   .footer-contato .telefone::before{
     position: initial;
   }
