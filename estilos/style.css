@@ -31,7 +31,7 @@
 /*ULTILIDADES */
 @import "ultilidades/tipografia.css";
 @import "ultilidades/cores.css";
-
+@import "ultilidades/formulario.css";
 /* ANIMAÇÃO AO START DA TELA  */
 .js .fadeInDown {
   transform: translate3d(0, -20px, 0);

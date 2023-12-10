@@ -120,10 +120,6 @@
   .categorias-titulo h1{
     max-width: none;
   }
-
-  .categorias-galeria li:nth-child(3):after{
-    left: 60px;
-   }
 }
 
 @media (max-width:600px){
